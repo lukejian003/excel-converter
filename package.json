@@ -1,0 +1,13 @@
+{
+  "name": "excel-converter",
+  "version": "1.0.0",
+  "description": "将夸克网盘批量分享的链接整理成excel文档",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "fs": "^0.0.1-security"
+  }
+}
