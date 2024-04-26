@@ -23,7 +23,7 @@ rl.question('请输入输入文件的完整路径：', (inputFilePath) => {
 
       const workbook = new ExcelJS.Workbook();
       const worksheet = workbook.addWorksheet('Sheet1');
-      worksheet.addRow(['语言', '中文名', '其他名', '下载链接']); // 表头
+      worksheet.addRow(['语言', '中文名', '其他名', '夸克链接']); // 表头
 
       let currentRecord = {
         language: '',
